@@ -35,3 +35,10 @@ console.log(Math.trunc(12.951))
 console.log(Math.round(12.951))
 console.log(Math.ceil(12.1))
 console.log(Math.random() * 10)
+
+
+// ========CaptchaCode========//
+const firstRandomNum = Math.random() * 100000
+const finalCaptchaCode = Math.floor(firstRandomNum)
+
+console.log("your CaptchaCode is :"+ finalCaptchaCode)
