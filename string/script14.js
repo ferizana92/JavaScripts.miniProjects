@@ -13,3 +13,10 @@ console.log(text.toLowerCase())
 console.log(text.search("Java"))
 console.log(text.indexOf("love"))
 console.log(text.includes("love"))
+// ================
+// .slice
+// .substr
+// .substring
+console.log(text.slice(7, 17))
+console.log(text.substr(7, 10))
+console.log(text.substring(7, 17))
