@@ -6,3 +6,9 @@ if (username.length < 3 || password.length < 3) {
 } else {
     alert("successful registration!")
 }
+// =============
+if (username.toLowerCase() == "ali") {
+    alert("correct!")
+} else {
+    alert("wrong name!")
+}
