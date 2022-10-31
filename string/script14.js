@@ -20,3 +20,18 @@ console.log(text.includes("love"))
 console.log(text.slice(7, 17))
 console.log(text.substr(7, 10))
 console.log(text.substring(7, 17))
+
+
+// ===================MATH method===============//
+console.log(Math.PI)
+console.log(2 ** 3)
+console.log(Math.pow(2, 3))
+console.log(Math.sqrt(81))
+console.log(Math.abs(-6))
+console.log(Math.min(12, 5, 6, 51))
+console.log(Math.max(12, 5, 6, 51))
+console.log(Math.floor(12.546))
+console.log(Math.trunc(12.951))
+console.log(Math.round(12.951))
+console.log(Math.ceil(12.1))
+console.log(Math.random() * 10)
