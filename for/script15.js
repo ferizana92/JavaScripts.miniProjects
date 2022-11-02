@@ -15,11 +15,21 @@ console.log(allPrices)
 alert("All price of your basket is:" + allPrices)
 // ============even number==============//
 
-for (var i = 0; i < 100; i+=2) {
+for (var i = 0; i < 100; i += 2) {
     console.log(i)
 }
 // ============odd number==============//
 
-for (var i = 1; i < 100; i+=2) {
+for (var i = 1; i < 100; i += 2) {
     console.log(i)
 }
+// ===================
+var userNumber = Number(prompt('enter the number.'))
+var sum = 0
+
+for (var i = 0; userNumber / 10; i++) {
+    sum = sum + (userNumber % 10)
+    userNumber = Math.floor(userNumber / 10)
+
+}
+console.log("sum of digits :", sum)
