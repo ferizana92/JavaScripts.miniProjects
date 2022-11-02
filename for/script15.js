@@ -13,3 +13,13 @@ for (var i = 0; i < 5; i++) {
 }
 console.log(allPrices)
 alert("All price of your basket is:" + allPrices)
+// ============even number==============//
+
+for (var i = 0; i < 100; i+=2) {
+    console.log(i)
+}
+// ============odd number==============//
+
+for (var i = 1; i < 100; i+=2) {
+    console.log(i)
+}
