@@ -46,3 +46,23 @@ if (userNumber == 0) {
     }
 }
 alert("sum of digits :" + counter);
+// ============
+var userFirstNumber = Number(prompt('enter the first number.', 1))
+var userSecondNumber = Number(prompt('enter the second number.', 1))
+
+var power = 1
+for (i = 0; i < userSecondNumber; i++) {
+    power = power + userFirstNumber
+}
+alert("power:" + power)
+// ============
+var userFirstNumber = Number(prompt('enter the first number.', 1))
+var userSecondNumber = Number(prompt('enter the second number.', 1))
+
+var power = 1
+var i = 1
+do {
+}
+while (i < userSecondNumber)
+alert("power:" + power)
+// ============

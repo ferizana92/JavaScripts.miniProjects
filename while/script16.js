@@ -56,3 +56,12 @@ while (userNumber != -1) {
 console.log("sum:", sum);
 console.log("counter:", counter);
 console.log("Average:", sum / counter);
+// ==================
+
+var i = 0
+do {
+    console.log(i)
+    i++
+}
+while (i < 5)
+// ==================
